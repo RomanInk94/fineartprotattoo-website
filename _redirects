@@ -1,0 +1,4 @@
+# Saubere URLs für die Rechtstexte (Netlify)
+# 200 = Rewrite: die Adresse in der Browserzeile bleibt /impressum
+/impressum      /impressum.html     200
+/datenschutz    /datenschutz.html   200
