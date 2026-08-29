@@ -13,6 +13,7 @@ Statische Seite, kein Build-Schritt, kein Framework.
 | `impressum.html` | Impressum (§ 5 DDG) |
 | `datenschutz.html` | Datenschutzerklärung (DSGVO) |
 | `images/`, `events/images/` | Bilder |
+| `fonts/` | Lokale Schriften (Cormorant Garamond, Inter) + Lizenzen |
 | `_redirects` | Saubere URLs: `/impressum`, `/datenschutz` |
 | `_headers` | Sicherheits-Header (CSP usw.) |
 | `robots.txt`, `sitemap.xml`, `llms.txt` | Suchmaschinen |
@@ -37,5 +38,7 @@ früheren Stand ("Publish deploy").
   Wurzelverzeichnis.
 - `_headers` und `_redirects` müssen im Wurzelverzeichnis bleiben, sonst fallen
   Sicherheits-Header und die URLs ohne `.html` weg.
-- Die Schriften werden noch von Google geladen (siehe offener Punkt in der
-  Datenschutzerklärung, Ziffer 4).
+- Die Schriften liegen **lokal** in `fonts/` und werden über `fonts/fonts.css`
+  eingebunden. Keine Verbindung zu Google Fonts — das ist bewusst so und in der
+  Datenschutzerklärung (Ziffer 4) so beschrieben. Bitte nicht auf die
+  Google-CDN-Einbindung zurückstellen.
