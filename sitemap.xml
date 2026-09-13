@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fineartprotattoo.com/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://fineartprotattoo.com/events/</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fineartprotattoo.com/blog/tattoo-nachsorge.html</loc>
+    <loc>https://fineartprotattoo.com/blog/tattoo-nachsorge</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -30,4 +30,10 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url><loc>https://fineartprotattoo.com/fineline-schriftzuege/</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://fineartprotattoo.com/en/fine-line-lettering/</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://fineartprotattoo.com/roman-olichowski/</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://fineartprotattoo.com/en/roman-olichowski/</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://fineartprotattoo.com/guestspots/</loc><lastmod>2026-09-14</lastmod></url>
+  <url><loc>https://fineartprotattoo.com/en/guest-spots/</loc><lastmod>2026-09-14</lastmod></url>
 </urlset>
