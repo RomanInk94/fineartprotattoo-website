@@ -3,3 +3,19 @@
 /impressum      /impressum.html     200
 /datenschutz    /datenschutz.html   200
 /blog/tattoo-nachsorge  /blog/tattoo-nachsorge.html  200
+
+# ── Sprache der Startseite automatisch wählen ──
+# Gilt NUR für die Startseite "/". Google und KI-Crawler senden keine
+# Browsersprache und bekommen deshalb immer die deutsche Startseite.
+# Die Regeln werden von oben nach unten geprüft, die erste passende gewinnt.
+#
+# 1. Wer bewusst Deutsch gewählt hat (Link "DE" → /?lang=de), bleibt auf Deutsch.
+/  lang=:lang  /index.html  200!
+# 2. Russische Browsersprache → russische Limassol-Seite
+/  /ru/tatu-limassol/  302!  Language=ru
+# 3. Deutsche Browsersprache → deutsche Startseite (auch Urlauber auf Zypern)
+/  /index.html  200!  Language=de
+# 4. Alle übrigen Besucher aus Zypern → englische Limassol-Seite
+/  /en/tattoo-artist-limassol-cyprus/  302!  Country=cy
+# 5. Englische oder griechische Browsersprache → englische Limassol-Seite
+/  /en/tattoo-artist-limassol-cyprus/  302!  Language=en,el

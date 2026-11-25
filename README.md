@@ -7,7 +7,10 @@ Statische Seite, kein Build-Schritt, kein Framework.
 
 | Pfad | Inhalt |
 |---|---|
-| `index.html` | Startseite (CSS und JS inline) |
+| `index.html` | Startseite (CSS und JS inline), Hauptstandort Limassol |
+| `en/tattoo-artist-limassol-cyprus/` | Haupt-Landingpage Limassol/Zypern (Englisch), TattooParlor-Schema |
+| `ru/tatu-limassol/` | Limassol-Landingpage auf Russisch |
+| `fineline-schriftzuege/`, `roman-olichowski/`, `guestspots/` | Unterseiten DE, mit EN-Pendants unter `en/` |
 | `events/index.html` | Event-Tattoos |
 | `blog/tattoo-nachsorge.html` | Blogbeitrag |
 | `impressum.html` | Impressum (§ 5 DDG) |
