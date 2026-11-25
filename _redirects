@@ -17,5 +17,6 @@
 /  /index.html  200!  Language=de
 # 4. Alle übrigen Besucher aus Zypern → englische Limassol-Seite
 /  /en/tattoo-artist-limassol-cyprus/  302!  Country=cy
-# 5. Englische oder griechische Browsersprache → englische Limassol-Seite
-/  /en/tattoo-artist-limassol-cyprus/  302!  Language=en,el
+# 5. Englische, griechische oder ukrainische Browsersprache → englische Limassol-Seite
+#    (Netlify wertet nur die erste Browsersprache aus.)
+/  /en/tattoo-artist-limassol-cyprus/  302!  Language=en,el,uk
