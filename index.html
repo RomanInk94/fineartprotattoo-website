@@ -30,9 +30,9 @@
   "@type": "Person",
   "name": "Roman Olichowski",
   "alternateName": "FineArt Pro Tattoo",
-  "description": "Roman Olichowski, FineArt Pro Tattoo: Tattoo Artist mit Privatstudio in Limassol, Zypern. Fine Line, Microrealism, Fine-Line-Schriftzüge, Concept und Fine Art Tattoos inspiriert von griechischen Statuen und Stoizismus. Vom Glashandwerk zum Tattoo; außerdem Düsseldorf und Guestspots weltweit.",
+  "description": "Roman Olichowski, FineArt Pro Tattoo: Tattoo Artist mit Privatstudio in Limassol, Zypern. Fine Line, Microrealism, Fine-Line-Schriftzüge, Concept und Fine Art Tattoos inspiriert von griechischen Statuen und Stoizismus. Sechs Jahre professionelle Vollzeiterfahrung im Tätowieren. Gasttermine auf Anfrage.",
   "image": "https://fineartprotattoo.com/images/IMG_3192.jpg",
-  "url": "https://fineartprotattoo.com",
+  "url": "https://fineartprotattoo.com/roman-olichowski/",
   "telephone": "+49-179-1518975",
   "email": "fineartprotattoo@gmail.com",
   "jobTitle": "Tattoo Artist",
@@ -59,40 +59,10 @@
     "English",
     "Russian"
   ],
-  "workLocation": [
-    { "@id": "https://fineartprotattoo.com/#studio-limassol" },
-    {
-      "@type": "TattooParlor",
-      "name": "Body Upgrade Tattoo Düsseldorf",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Helmholtzstraße 20",
-        "postalCode": "40215",
-        "addressLocality": "Düsseldorf",
-        "addressCountry": "DE"
-      }
-    },
-    {
-      "@type": "TattooParlor",
-      "name": "Body Upgrade Tattoo Lahnstein",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Lahnstein",
-        "addressCountry": "DE"
-      }
-    },
-    {
-      "@type": "TattooParlor",
-      "name": "r.tattoo Wien",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Wien",
-        "addressCountry": "AT"
-      }
-    }
-  ],
+  "workLocation": { "@id": "https://fineartprotattoo.com/#studio-limassol" },
   "sameAs": [
-    "https://www.instagram.com/fineartprotattoo/"
+    "https://www.instagram.com/fineartprotattoo/",
+    "https://tattoogigs.com/artists/roman"
   ],
   "@id": "https://fineartprotattoo.com/#roman-olichowski",
   "subjectOf": [
@@ -131,13 +101,7 @@
         "addressRegion": "Limassol District",
         "addressCountry": "CY"
       },
-      "areaServed": [
-        { "@type": "City", "name": "Limassol" },
-        { "@type": "City", "name": "Paphos" },
-        { "@type": "City", "name": "Larnaca" },
-        { "@type": "City", "name": "Nicosia" },
-        { "@type": "Country", "name": "Cyprus" }
-      ],
+      "areaServed": { "@type": "City", "name": "Limassol" },
       "founder": { "@id": "https://fineartprotattoo.com/#roman-olichowski" },
       "sameAs": ["https://www.instagram.com/fineartprotattoo/"]
     },
@@ -147,7 +111,7 @@
       "url": "https://fineartprotattoo.com/",
       "name": "FineArt Pro Tattoo",
       "alternateName": "FineArt Pro Tattoo – Roman Olichowski",
-      "inLanguage": ["de", "en", "ru"],
+      "inLanguage": ["de", "en", "el", "ru"],
       "publisher": { "@id": "https://fineartprotattoo.com/#roman-olichowski" }
     }
   ]
@@ -165,7 +129,7 @@
       "name": "Wo tätowierst du auf Zypern?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mein Hauptstandort ist ein Privatstudio in Limassol, Zypern. Termine und kurzfristige Walk-in-Slots vereinbarst du per WhatsApp; die genaue Adresse bekommst du mit der Terminbestätigung. Beratung auf Deutsch, Englisch und Russisch. Viele Kundinnen und Kunden kommen aus Paphos, Larnaca und Nikosia nach Limassol, die Fahrt dauert etwa 45 bis 60 Minuten. Außerdem arbeite ich in Düsseldorf und als Guest Artist."
+        "text": "Mein Hauptstandort ist ein Privatstudio in Limassol, Zypern. Termine und kurzfristige Walk-in-Slots vereinbarst du per WhatsApp; die genaue Adresse bekommst du mit der Terminbestätigung. Beratung auf Deutsch, Englisch und Russisch. Viele Kundinnen und Kunden kommen aus Paphos, Larnaca und Nikosia nach Limassol, die Fahrt dauert etwa 45 bis 60 Minuten. Gasttermine außerhalb von Zypern biete ich nach Vereinbarung an."
       }
     },
     {
@@ -356,6 +320,9 @@ nav:not(.scrolled) .menu-toggle span { background: #fff; }
   z-index: -1;
 }
 .hero-content { position: relative; z-index: 1; padding: 2rem; }
+.hero-languages { display: flex; justify-content: center; gap: 1rem; margin-top: .8rem; }
+.hero-languages a { display: inline-flex; align-items: center; min-height: 44px; color: inherit; font-size: .8rem; text-underline-offset: .3em; }
+.hero-languages a:hover, .hero-languages a:focus-visible { opacity: .8; }
 .hero .subtitle {
   font-size: .75rem;
   letter-spacing: .35em;
@@ -912,7 +879,12 @@ section[id] { scroll-margin-top: 85px; }
   <div class="hero-content">
     <p class="subtitle" translate="no">FineArt Pro Tattoo</p>
     <h1><span translate="no">Roman Olichowski</span><span class="hero-focus">Fine Line, Realismus &amp; Concept Tattoos in Limassol</span></h1>
-    <p class="tagline">Persönliche Worte. Feine Linien. Deine Geschichte.<br>Limassol, Zypern · Düsseldorf · Guestspots weltweit</p>
+    <p class="tagline">Privatstudio in Limassol, Zypern · Nur nach Termin</p>
+    <div class="hero-languages" role="group" aria-label="Weitere Sprachen">
+      <a href="/en/tattoo-artist-limassol-cyprus/" lang="en" hreflang="en">English</a>
+      <a href="/el/tatouaz-lemesos/" lang="el" hreflang="el">Ελληνικά</a>
+      <a href="/ru/tatu-limassol/" lang="ru" hreflang="ru">Русский</a>
+    </div>
   </div>
   <a href="#philosophy" class="scroll-indicator" aria-label="Mehr über meine Arbeit">
     <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
@@ -1014,7 +986,7 @@ section[id] { scroll-margin-top: 85px; }
 
   <div class="faq-item reveal">
     <button class="faq-question">Wo tätowierst du auf Zypern?</button>
-    <div class="faq-answer"><div class="faq-answer-inner">Mein Hauptstandort ist ein Privatstudio in Limassol, Zypern. Termine und kurzfristige Walk-in-Slots vereinbarst du per WhatsApp; die genaue Adresse bekommst du mit der Terminbestätigung. Beratung auf Deutsch, Englisch und Russisch. Viele Kundinnen und Kunden kommen aus Paphos, Larnaca und Nikosia nach Limassol, die Fahrt dauert etwa 45 bis 60 Minuten. Außerdem arbeite ich in Düsseldorf und als Guest Artist.</div></div>
+    <div class="faq-answer"><div class="faq-answer-inner">Mein Hauptstandort ist ein Privatstudio in Limassol, Zypern. Termine und kurzfristige Walk-in-Slots vereinbarst du per WhatsApp; die genaue Adresse bekommst du mit der Terminbestätigung. Beratung auf Deutsch, Englisch und Russisch. Viele Kundinnen und Kunden kommen aus Paphos, Larnaca und Nikosia nach Limassol, die Fahrt dauert etwa 45 bis 60 Minuten. Gasttermine außerhalb von Zypern biete ich nach Vereinbarung an.</div></div>
   </div>
 
   <div class="faq-item reveal">
@@ -1232,6 +1204,7 @@ section[id] { scroll-margin-top: 85px; }
     <a href="/en/walk-in-tattoo-limassol/" lang="en">Walk-in Limassol</a>
     <a href="/en/tattoo-events-cyprus/" lang="en">Event Tattoos Cyprus</a>
     <a href="/ru/tatu-limassol/" lang="ru">Тату Лимассол</a>
+    <a href="/el/tatouaz-lemesos/" lang="el">Τατουάζ Λεμεσός</a>
     <a href="/en/fine-line-tattoo-limassol/" lang="en">Fine Line Limassol</a>
     <a href="/en/microrealism-tattoo-cyprus/" lang="en">Microrealism Cyprus</a>
     <a href="/en/concept-fine-art-tattoo-limassol/" lang="en">Concept &amp; Fine Art Tattoos</a>
@@ -1248,7 +1221,7 @@ section[id] { scroll-margin-top: 85px; }
     <a href="/impressum">Impressum</a>
     <a href="/datenschutz">Datenschutz</a>
   </div>
-  <p class="copyright">&copy; 2026 <span translate="no">FineArt Pro Tattoo — Roman Olichowski</span> · Limassol, Zypern · Düsseldorf</p>
+  <p class="copyright">&copy; 2026 <span translate="no">FineArt Pro Tattoo — Roman Olichowski</span> · Limassol, Zypern</p>
 </footer>
 
 <script>
